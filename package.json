@@ -9,6 +9,7 @@
     "clean": "yarn workspaces foreach run clean",
     "build": "yarn clean && yarn workspaces foreach -p run build",
     "type-check": "yarn workspaces foreach run type-check",
+    "release": "yarn workspaces foreach run release",
     "format": "prettier --write .",
     "postinstallDev": "husky install"
   },

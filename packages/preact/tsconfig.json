@@ -2,7 +2,8 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "jsx": "preserve",
-    "jsxImportSource": "preact"
+    "jsxImportSource": "preact",
+    "moduleResolution": "node"
   },
   "include": ["index.tsx"],
   "exclude": ["node_modules", "dist"]
