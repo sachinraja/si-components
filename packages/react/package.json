@@ -13,7 +13,9 @@
   "scripts": {
     "clean": "rimraf dist",
     "build": "yarn clean && rollup -c",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "prepack": "yarn build",
+    "release": "yarn npm publish"
   },
   "repository": {
     "type": "git",

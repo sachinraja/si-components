@@ -6,8 +6,8 @@
   ],
   "packageManager": "yarn@3.0.2",
   "scripts": {
-    "build": "yarn workspaces foreach -p run build",
-    "clean": "rimraf **/dist",
+    "clean": "yarn workspaces foreach run clean",
+    "build": "yarn clean && yarn workspaces foreach -p run build",
     "type-check": "yarn workspaces foreach run type-check",
     "format": "prettier --write .",
     "postinstallDev": "husky install"

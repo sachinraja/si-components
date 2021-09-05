@@ -158,6 +158,7 @@ __metadata:
   dependencies:
     "@sveltejs/kit": next
     "@types/simple-icons": 5.8.0
+    rimraf: 3.0.2
     svelte: 3.42.4
     svelte-check: 2.2.5
     svelte-preprocess: 4.9.0
@@ -205,8 +206,8 @@ __metadata:
   linkType: hard
 
 "@sveltejs/vite-plugin-svelte@npm:^1.0.0-next.21":
-  version: 1.0.0-next.21
-  resolution: "@sveltejs/vite-plugin-svelte@npm:1.0.0-next.21"
+  version: 1.0.0-next.22
+  resolution: "@sveltejs/vite-plugin-svelte@npm:1.0.0-next.22"
   dependencies:
     "@rollup/pluginutils": ^4.1.1
     debug: ^4.3.2
@@ -221,7 +222,7 @@ __metadata:
   peerDependenciesMeta:
     diff-match-patch:
       optional: true
-  checksum: e1b45efa809ce4dc5814bfc862ab427ae38d9d991023e0f0313e9165d6626058251a94d180d5aa3831909985e0f2b1e6435c2f4f16a61850a512e4d06b9d7aa7
+  checksum: c9ce78b2d1672a51ea93d3cad653115477c63eda4d6be90e4d6aba6575df091df5af26d8a9c0cf2e84f3d3e641473a3ed1507f94a02dec4bf119dab0ff9cf054
   languageName: node
   linkType: hard
 
@@ -924,7 +925,7 @@ __metadata:
   resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=1cc4b2"
   dependencies:
     node-gyp: latest
-  checksum: b5712ac3858d8f77dbbf9f19e0c7f4a9aa0b336416a814be49d846d076c4f2fe4b7bf69846be8b7c9b23319c318e157f4cd5eb0eefcca015632fe7bfd82a34d8
+  checksum: 78db9daf1f6526a49cefee3917cc988f62dc7f25b5dd80ad6de4ffc4af7f0cab7491ac737626ff53e482a111bc53aac9e411fe3602458eca36f6a003ecf69c16
   languageName: node
   linkType: hard
 
@@ -2357,7 +2358,7 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"svelte-preprocess@npm:4.9.0, svelte-preprocess@npm:^4.0.0":
+"svelte-preprocess@npm:4.9.0":
   version: 4.9.0
   resolution: "svelte-preprocess@npm:4.9.0"
   dependencies:
@@ -2403,6 +2404,55 @@ resolve@^1.20.0:
     typescript:
       optional: true
   checksum: 7ce9745750a34c8b9f163eb3d8458fe777702e6677f70ffc1299c544270d7e82704ffa2269d047896e17b499d599a043bf28b4eac6a4f323efd0f1cc83ded4c0
+  languageName: node
+  linkType: hard
+
+"svelte-preprocess@npm:^4.0.0":
+  version: 4.9.1
+  resolution: "svelte-preprocess@npm:4.9.1"
+  dependencies:
+    "@types/pug": ^2.0.4
+    "@types/sass": ^1.16.0
+    detect-indent: ^6.0.0
+    magic-string: ^0.25.7
+    sorcery: ^0.10.0
+    strip-indent: ^3.0.0
+  peerDependencies:
+    "@babel/core": ^7.10.2
+    coffeescript: ^2.5.1
+    less: ^3.11.3
+    postcss: ^7 || ^8
+    postcss-load-config: ^2.1.0 || ^3.0.0
+    pug: ^3.0.0
+    sass: ^1.26.8
+    stylus: ^0.54.7
+    sugarss: ^2.0.0
+    svelte: ^3.23.0
+    typescript: ^4.4.2
+  peerDependenciesMeta:
+    "@babel/core":
+      optional: true
+    coffeescript:
+      optional: true
+    less:
+      optional: true
+    node-sass:
+      optional: true
+    postcss:
+      optional: true
+    postcss-load-config:
+      optional: true
+    pug:
+      optional: true
+    sass:
+      optional: true
+    stylus:
+      optional: true
+    sugarss:
+      optional: true
+    typescript:
+      optional: true
+  checksum: 1aecaabab2789733697a144931574bf0c300426dcf266f7afbe827d6af3b410c350b918b5f8d65db00599c14d39ca649168986dbca5b7cd9231cb5ff0a73a6fe
   languageName: node
   linkType: hard
 

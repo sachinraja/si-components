@@ -6,7 +6,8 @@ const bundle = (config) => ({
 })
 
 export default ({ input, plugins, dtsPlugins }) => {
-  return [
+  const config = []
+  config.push(
     bundle({
       plugins,
       input,
@@ -21,13 +22,19 @@ export default ({ input, plugins, dtsPlugins }) => {
         },
       ],
     }),
-    // bundle({
-    //   plugins: dtsPlugins,
-    //   input,
-    //   output: {
-    //     file: `${name}.d.ts`,
-    //     format: 'es',
-    //   },
-    // }),
-  ]
+  )
+
+  if (dtsPlugins)
+    config.push(
+      bundle({
+        plugins: dtsPlugins,
+        input,
+        output: {
+          file: `${name}.d.ts`,
+          format: 'es',
+        },
+      }),
+    )
+
+  return config
 }

@@ -1,13 +1,15 @@
 {
   "name": "@si-components/svelte",
+  "private": true,
   "version": "1.0.0",
   "description": "svelte component for simple-icons",
   "scripts": {
+    "clean": "rimraf package",
     "build": "svelte-kit package",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
     "type-check": "yarn check",
-    "release": "yarn build && npm publish ./package"
+    "release": "yarn build && node remove-private.js && npm publish ./package"
   },
   "repository": {
     "type": "git",
@@ -32,6 +34,7 @@
   "devDependencies": {
     "@sveltejs/kit": "next",
     "@types/simple-icons": "5.8.0",
+    "rimraf": "3.0.2",
     "svelte": "3.42.4",
     "svelte-check": "2.2.5",
     "svelte-preprocess": "4.9.0",

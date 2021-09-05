@@ -13,6 +13,8 @@ const SIIcon = forwardRef<SVGSVGElement, SIIconProps>(
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
       fill="currentColor"
+      width="1em"
+      height="1em"
       ref={ref}
       {...props}
     >

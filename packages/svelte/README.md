@@ -12,6 +12,7 @@ npm i @si-components/svelte simple-icons
 
 ## Usage
 
+<!-- prettier-ignore -->
 ```html
 <script>
   import SIIcon from '@si-components/svelte'
@@ -20,8 +21,11 @@ npm i @si-components/svelte simple-icons
 </script>
 
 <!-- pass icon into component -->
-<SIIcon icon={svelteIcon}></SIIcon>
+<SIIcon icon={svelteIcon} />
+
+<!-- pass width, height, and color -->
+<SIIcon icon={svelteIcon} width={100} height={100} color="#{svelteIcon.hex}" />
 
 <!-- extra attributes are passed to svg -->
-<SIIcon icon={svelteIcon} svgProps={{ width: 100, height: 100, color: `#${svelteIcon.hex}` }}></SIIcon>
+<SIIcon icon={svelteIcon} svgProps={{ stroke: '#00ff00', 'stroke-width': 2 }} />
 ```
