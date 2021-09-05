@@ -1,0 +1,31 @@
+{
+  "name": "si-components",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@3.0.2",
+  "scripts": {
+    "build": "yarn workspaces foreach -p run build",
+    "clean": "rimraf **/dist",
+    "type-check": "yarn workspaces foreach run type-check",
+    "format": "prettier --write .",
+    "postinstallDev": "husky install"
+  },
+  "devDependencies": {
+    "esbuild": "0.12.25",
+    "husky": "7.0.2",
+    "lint-staged": "11.1.2",
+    "prettier": "2.3.2",
+    "prettier-plugin-svelte": "2.4.0",
+    "rimraf": "3.0.2"
+  },
+  "lint-staged": {
+    "*.{ts,svelte,json,md,yml}": "prettier --write"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}

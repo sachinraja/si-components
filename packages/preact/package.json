@@ -1,0 +1,52 @@
+{
+  "name": "@si-components/preact",
+  "version": "1.0.0",
+  "description": "preact component for simple-icons",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs"
+  },
+  "packageManager": "yarn@3.0.2",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "yarn clean && rollup -c",
+    "type-check": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinraja/si-components.git"
+  },
+  "keywords": [
+    "simple-icons",
+    "icon",
+    "svg",
+    "preact"
+  ],
+  "author": "Sachin Raja <sachinraja2349@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/sachinraja/si-components/issues"
+  },
+  "homepage": "https://github.com/sachinraja/si-components#readme",
+  "peerDependencies": {
+    "preact": "*",
+    "simple-icons": "*"
+  },
+  "devDependencies": {
+    "@rollup/plugin-inject": "4.0.2",
+    "@types/simple-icons": "5.8.0",
+    "esbuild": "0.12.25",
+    "preact": "10.5.14",
+    "rimraf": "3.0.2",
+    "rollup": "2.56.3",
+    "rollup-plugin-dts": "4.0.0",
+    "rollup-plugin-esbuild": "4.5.0",
+    "typescript": "4.3.5"
+  }
+}
