@@ -9,7 +9,7 @@
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
     "type-check": "yarn check",
-    "release": "yarn build && node remove-private.js && npm publish ./package"
+    "release": "yarn build && node remove-private.js && npm publish ./package --access public"
   },
   "repository": {
     "type": "git",

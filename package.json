@@ -6,10 +6,10 @@
   ],
   "packageManager": "yarn@3.0.2",
   "scripts": {
-    "clean": "yarn workspaces foreach run clean",
+    "clean": "yarn workspaces foreach -p run clean",
     "build": "yarn clean && yarn workspaces foreach -p run build",
-    "type-check": "yarn workspaces foreach run type-check",
-    "release": "yarn workspaces foreach run release",
+    "type-check": "yarn workspaces foreach -p run type-check",
+    "release": "yarn workspaces foreach -p run release",
     "format": "prettier --write .",
     "postinstallDev": "husky install"
   },
