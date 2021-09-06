@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/sachinraja/si-components/issues"
   },
-  "homepage": "https://github.com/sachinraja/si-components#readme",
+  "homepage": "https://github.com/sachinraja/si-components/tree/main/packages/svelte#readme",
   "peerDependencies": {
     "simple-icons": "*",
     "svelte": "*"
