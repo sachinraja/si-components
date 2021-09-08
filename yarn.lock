@@ -137,6 +137,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@si-components/react@workspace:packages/react"
   dependencies:
+    "@rollup/plugin-inject": 4.0.2
     "@types/react": 17.0.20
     "@types/simple-icons": 5.8.0
     esbuild: 0.12.25
