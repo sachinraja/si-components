@@ -1,13 +1,9 @@
 {
-  extends: ['config:js-lib', 'schedule:weekly'],
+  extends: ['config:js-lib', 'github>sachinraja/renovate-config:js'],
   packageRules: [
     {
-      matchUpdateTypes: ['minor', 'patch', 'pin', 'digest'],
-      automerge: true,
-    },
-    {
-      matchPackageNames: ['typescript'],
-      automerge: false,
+      groupName: 'Svelte packages',
+      matchPackagePrefixes: ['svelte'],
     },
   ],
 }
