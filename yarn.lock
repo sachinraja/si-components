@@ -187,7 +187,7 @@ __metadata:
     "@sveltejs/kit": next
     "@types/simple-icons": 5.8.0
     rimraf: 3.0.2
-    svelte: 3.42.5
+    svelte: 3.42.6
     svelte-check: 2.2.6
     svelte-preprocess: 4.9.4
     svelte2tsx: 0.4.6
@@ -2500,10 +2500,10 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"svelte@npm:3.42.5":
-  version: 3.42.5
-  resolution: "svelte@npm:3.42.5"
-  checksum: a0076769e998c3adc29fa95cefe7a5aca970ebd4d5c0e9a0b35a11de251c68c3badb234e41bdbdcca9d9d6a93af63ced3d9ade2ef6e79e50337a3c93630c839b
+"svelte@npm:3.42.6":
+  version: 3.42.6
+  resolution: "svelte@npm:3.42.6"
+  checksum: afba567e8e9ba23cbb7a286230005f17f0237d72ca60481a48a31a6a343ee8229a24823948b0403058be32f0e21716b9339e43aa37f14d97c8e7d518fc92aea4
   languageName: node
   linkType: hard
 
