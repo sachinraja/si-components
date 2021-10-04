@@ -187,10 +187,10 @@ __metadata:
     "@sveltejs/kit": next
     "@types/simple-icons": 5.8.0
     rimraf: 3.0.2
-    svelte: 3.42.6
+    svelte: 3.43.1
     svelte-check: 2.2.6
-    svelte-preprocess: 4.9.4
-    svelte2tsx: 0.4.6
+    svelte-preprocess: 4.9.8
+    svelte2tsx: 0.4.7
     tslib: 2.3.1
     typescript: 4.4.3
   peerDependencies:
@@ -2517,7 +2517,56 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"svelte-preprocess@npm:4.9.4, svelte-preprocess@npm:^4.0.0":
+"svelte-preprocess@npm:4.9.8":
+  version: 4.9.8
+  resolution: "svelte-preprocess@npm:4.9.8"
+  dependencies:
+    "@types/pug": ^2.0.4
+    "@types/sass": ^1.16.0
+    detect-indent: ^6.0.0
+    magic-string: ^0.25.7
+    sorcery: ^0.10.0
+    strip-indent: ^3.0.0
+  peerDependencies:
+    "@babel/core": ^7.10.2
+    coffeescript: ^2.5.1
+    less: ^3.11.3
+    postcss: ^7 || ^8
+    postcss-load-config: ^2.1.0 || ^3.0.0
+    pug: ^3.0.0
+    sass: ^1.26.8
+    stylus: ^0.54.7
+    sugarss: ^2.0.0
+    svelte: ^3.23.0
+    typescript: ^3.9.5 || ^4.0.0
+  peerDependenciesMeta:
+    "@babel/core":
+      optional: true
+    coffeescript:
+      optional: true
+    less:
+      optional: true
+    node-sass:
+      optional: true
+    postcss:
+      optional: true
+    postcss-load-config:
+      optional: true
+    pug:
+      optional: true
+    sass:
+      optional: true
+    stylus:
+      optional: true
+    sugarss:
+      optional: true
+    typescript:
+      optional: true
+  checksum: 4a270ca101628ef816b3e3db75b504004bbf4f69334e1c201a8ce72ef26a2900b75cb514d283a9a6297e8ac481425a179e50973487d7d031762064c9d99b242a
+  languageName: node
+  linkType: hard
+
+"svelte-preprocess@npm:^4.0.0":
   version: 4.9.4
   resolution: "svelte-preprocess@npm:4.9.4"
   dependencies:
@@ -2566,23 +2615,23 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"svelte2tsx@npm:0.4.6":
-  version: 0.4.6
-  resolution: "svelte2tsx@npm:0.4.6"
+"svelte2tsx@npm:0.4.7":
+  version: 0.4.7
+  resolution: "svelte2tsx@npm:0.4.7"
   dependencies:
     dedent-js: ^1.0.1
     pascal-case: ^3.1.1
   peerDependencies:
     svelte: ^3.24
     typescript: ^4.1.2
-  checksum: 310c8378c00673a9f7878600e031109481df1282c0fbd16c0cf1d06524de279e9cd892d7ea055e4346f4d906d3d86d6264da4c55941031a274ec1cea949b4ce0
+  checksum: 1f46b470743e786b8e01db942876eb0416ae5c0938c8b9773406c2cff148719b373732d693007b70ddc6f2fd903eecc335934a0b699886fdde6be930d1142c15
   languageName: node
   linkType: hard
 
-"svelte@npm:3.42.6":
-  version: 3.42.6
-  resolution: "svelte@npm:3.42.6"
-  checksum: afba567e8e9ba23cbb7a286230005f17f0237d72ca60481a48a31a6a343ee8229a24823948b0403058be32f0e21716b9339e43aa37f14d97c8e7d518fc92aea4
+"svelte@npm:3.43.1":
+  version: 3.43.1
+  resolution: "svelte@npm:3.43.1"
+  checksum: c9a28c3d34a129eb62264f1f8ce1c0e9ca4bc2652383268ea99d1f723994a09c4ed711ca899fb0923c4fee8d1006b84b3d910254d6536fc40c5e717294f736ce
   languageName: node
   linkType: hard
 
