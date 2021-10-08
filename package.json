@@ -5,10 +5,10 @@
   "scripts": {
     "clean": "pnpm -r --parallel run clean",
     "build": "pnpm clean && pnpm -r --parallel run build",
-    "type-check": "pnpm -r --parallel run type-check",
     "release": "pnpm -r --parallel run release",
     "format": "prettier --write .",
-    "check:format": "prettier --check .",
+    "lint:types": "pnpm -r --parallel run type-check",
+    "lint:format": "prettier --check .",
     "prepare": "husky install"
   },
   "devDependencies": {

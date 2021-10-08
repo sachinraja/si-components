@@ -27,10 +27,10 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Install dependencies
-        run: yarn install
+        run: pnpm install
 
       - name: Check formatting
-        run: yarn format:check
+        run: pnpm lint:format
 
       - name: Check types
-        run: yarn type-check
+        run: pnpm lint:types
