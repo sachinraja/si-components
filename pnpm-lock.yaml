@@ -37,22 +37,16 @@ importers:
   packages/svelte:
     specifiers:
       '@sveltejs/kit': next
-      '@types/simple-icons': 5.8.0
-      rimraf: 3.0.2
       svelte: 3.43.1
       svelte-check: 2.2.6
       svelte-preprocess: 4.9.8
       svelte2tsx: 0.4.7
-      typescript: 4.4.3
     devDependencies:
       '@sveltejs/kit': 1.0.0-next.180_svelte@3.43.1
-      '@types/simple-icons': 5.8.0
-      rimraf: 3.0.2
       svelte: 3.43.1
       svelte-check: 2.2.6_svelte@3.43.1
-      svelte-preprocess: 4.9.8_svelte@3.43.1+typescript@4.4.3
-      svelte2tsx: 0.4.7_svelte@3.43.1+typescript@4.4.3
-      typescript: 4.4.3
+      svelte-preprocess: 4.9.8_svelte@3.43.1
+      svelte2tsx: 0.4.7_svelte@3.43.1
 
   packages/vue:
     specifiers:
@@ -1479,7 +1473,7 @@ packages:
       typescript: 4.4.3
     dev: true
 
-  /svelte-preprocess/4.9.8_svelte@3.43.1+typescript@4.4.3:
+  /svelte-preprocess/4.9.8_svelte@3.43.1:
     resolution: {integrity: sha512-EQS/oRZzMtYdAprppZxY3HcysKh11w54MgA63ybtL+TAZ4hVqYOnhw41JVJjWN9dhPnNjjLzvbZ2tMhTsla1Og==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -1527,7 +1521,6 @@ packages:
       sorcery: 0.10.0
       strip-indent: 3.0.0
       svelte: 3.43.1
-      typescript: 4.4.3
     dev: true
 
   /svelte/3.43.1:
@@ -1535,7 +1528,7 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.4.7_svelte@3.43.1+typescript@4.4.3:
+  /svelte2tsx/0.4.7_svelte@3.43.1:
     resolution: {integrity: sha512-1HqRb8+I8H0Gli0+w8nTmyZgbtO/jJE3g27cNKYFyN0GMdpOh0CRmiWuMH1k9N2JugkviI7wqETanqJTR0SI+A==}
     peerDependencies:
       svelte: ^3.24
@@ -1544,7 +1537,6 @@ packages:
       dedent-js: 1.0.1
       pascal-case: 3.1.2
       svelte: 3.43.1
-      typescript: 4.4.3
     dev: true
 
   /through/2.3.8:
