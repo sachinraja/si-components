@@ -1,7 +1,7 @@
 {
   "name": "@si-components/svelte",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "svelte component for simple-icons",
   "publishConfig": {
     "directory": "package"
