@@ -8,7 +8,7 @@
 npm i @si-components/svelte simple-icons
 ```
 
-`simple-icons` must be installed as a peer dependency. You must also [preprocess your svelte files](https://github.com/sveltejs/svelte-preprocess#what-is-it) because this package uses `<script lang="ts">`.
+`simple-icons` must be installed as a peer dependency.
 
 ## Usage
 

@@ -1,5 +1,8 @@
 {
   "name": "@si-components/react",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.1",
   "description": "react component for simple-icons",
   "main": "dist/index.js",
@@ -12,10 +15,10 @@
   "packageManager": "yarn@3.0.2",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "yarn clean && rollup -c",
+    "build": "pnpm clean && tsup index.tsx --format esm,cjs --dts --inject ./react-import.js",
     "type-check": "tsc",
-    "prepack": "yarn build",
-    "release": "yarn npm publish"
+    "prepack": "pnpm build",
+    "release": "pnpm publish"
   },
   "repository": {
     "type": "git",
@@ -41,15 +44,7 @@
     "simple-icons": "*"
   },
   "devDependencies": {
-    "@rollup/plugin-inject": "4.0.2",
     "@types/react": "17.0.27",
-    "@types/simple-icons": "5.8.0",
-    "esbuild": "0.12.28",
-    "react": "17.0.2",
-    "rimraf": "3.0.2",
-    "rollup": "2.56.3",
-    "rollup-plugin-dts": "4.0.0",
-    "rollup-plugin-esbuild": "4.5.0",
-    "typescript": "4.4.3"
+    "react": "17.0.2"
   }
 }
