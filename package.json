@@ -6,9 +6,9 @@
     "clean": "pnpm -r --parallel run clean",
     "build": "pnpm clean && pnpm -r --parallel run build",
     "release": "pnpm -r --parallel run release",
-    "format": "prettier --write .",
+    "format": "prettier -w .",
     "lint:types": "pnpm -r --parallel run type-check",
-    "lint:format": "prettier --check .",
+    "lint:format": "prettier -c .",
     "prepare": "husky install"
   },
   "devDependencies": {
