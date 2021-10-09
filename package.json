@@ -1,7 +1,6 @@
 {
   "name": "si-components",
   "private": true,
-  "packageManager": "yarn@3.0.2",
   "scripts": {
     "clean": "pnpm -r --parallel run clean",
     "build": "pnpm clean && pnpm -r --parallel run build",

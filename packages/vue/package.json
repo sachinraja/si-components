@@ -12,7 +12,6 @@
     "require": "./dist/index.js",
     "import": "./dist/index.mjs"
   },
-  "packageManager": "yarn@3.0.2",
   "scripts": {
     "clean": "rimraf dist",
     "build": "pnpm clean && tsup index.ts --format esm,cjs",
