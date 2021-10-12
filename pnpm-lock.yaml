@@ -22,9 +22,9 @@ importers:
 
   packages/preact:
     specifiers:
-      preact: 10.5.14
+      preact: 10.5.15
     devDependencies:
-      preact: 10.5.14
+      preact: 10.5.15
 
   packages/react:
     specifiers:
@@ -1142,8 +1142,8 @@ packages:
       source-map-js: 0.6.2
     dev: true
 
-  /preact/10.5.14:
-    resolution: {integrity: sha512-KojoltCrshZ099ksUZ2OQKfbH66uquFoxHSbnwKbTJHeQNvx42EmC7wQVWNuDt6vC5s3nudRHFtKbpY4ijKlaQ==}
+  /preact/10.5.15:
+    resolution: {integrity: sha512-5chK29n6QcJc3m1lVrKQSQ+V7K1Gb8HeQY6FViQ5AxCAEGu3DaHffWNDkC9+miZgsLvbvU9rxbV1qinGHMHzqA==}
     dev: true
 
   /prettier-plugin-svelte/2.4.0_prettier@2.4.1:

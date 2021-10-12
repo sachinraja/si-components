@@ -43,6 +43,6 @@
     "simple-icons": "*"
   },
   "devDependencies": {
-    "preact": "10.5.14"
+    "preact": "10.5.15"
   }
 }
