@@ -28,10 +28,10 @@ importers:
 
   packages/react:
     specifiers:
-      '@types/react': 17.0.30
+      '@types/react': 17.0.31
       react: 17.0.2
     devDependencies:
-      '@types/react': 17.0.30
+      '@types/react': 17.0.31
       react: 17.0.2
 
   packages/svelte:
@@ -42,7 +42,7 @@ importers:
       svelte-preprocess: 4.9.8
       svelte2tsx: 0.4.7
     devDependencies:
-      '@sveltejs/kit': 1.0.0-next.186_svelte@3.44.0
+      '@sveltejs/kit': 1.0.0-next.187_svelte@3.44.0
       svelte: 3.44.0
       svelte-check: 2.2.7_svelte@3.44.0
       svelte-preprocess: 4.9.8_svelte@3.44.0+typescript@4.4.4
@@ -112,8 +112,8 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.186_svelte@3.44.0:
-    resolution: {integrity: sha512-LFv2q2cToreUcGp0B+5uVfu0qMvQiw3hsyELnUwxPP/lpUbcmYjgQmwivjRNTdudCqZt7ng3Ehy7UDILbBhExQ==}
+  /@sveltejs/kit/1.0.0-next.187_svelte@3.44.0:
+    resolution: {integrity: sha512-ImB7UYO1vNhkshw6OKymE1TpWGqmjAH5HCToBi2l8RMdPZhkwdWFCoqz65l1UssNltiIktPzegKeyy6E5w+XaA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -171,8 +171,8 @@ packages:
     resolution: {integrity: sha512-LOnASQoeNZMkzexRuyqcBBDZ6rS+rQxUMkmj5A0PkhhiSZivLIuz6Hxyr1mkGoEZEkk66faROmpMi4fFkrKsBA==}
     dev: true
 
-  /@types/react/17.0.30:
-    resolution: {integrity: sha512-3Dt/A8gd3TCXi2aRe84y7cK1K8G+N9CZRDG8kDGguOKa0kf/ZkSwTmVIDPsm/KbQOVMaDJXwhBtuOXxqwdpWVg==}
+  /@types/react/17.0.31:
+    resolution: {integrity: sha512-MQSR5EL4JZtdWRvqDgz9kXhSDDoy2zMTYyg7UhP+FZ5ttUOocWyxiqFJiI57sUG0BtaEX7WDXYQlkCYkb3X9vQ==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
