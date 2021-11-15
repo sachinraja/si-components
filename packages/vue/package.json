@@ -43,6 +43,6 @@
     "vue": "^3"
   },
   "devDependencies": {
-    "vue": "3.2.21"
+    "vue": "3.2.22"
   }
 }
