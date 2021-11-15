@@ -8,7 +8,7 @@ importers:
       husky: 7.0.4
       lint-staged: 11.2.6
       prettier: 2.4.1
-      prettier-plugin-svelte: 2.4.0
+      prettier-plugin-svelte: 2.5.0
       rimraf: 3.0.2
       typescript: 4.4.4
     devDependencies:
@@ -16,7 +16,7 @@ importers:
       husky: 7.0.4
       lint-staged: 11.2.6
       prettier: 2.4.1
-      prettier-plugin-svelte: 2.4.0_prettier@2.4.1
+      prettier-plugin-svelte: 2.5.0_prettier@2.4.1
       rimraf: 3.0.2
       typescript: 4.4.4
 
@@ -42,7 +42,7 @@ importers:
       svelte-preprocess: 4.9.8
       svelte2tsx: 0.4.8
     devDependencies:
-      '@sveltejs/kit': 1.0.0-next.193_svelte@3.44.1
+      '@sveltejs/kit': 1.0.0-next.196_svelte@3.44.1
       svelte: 3.44.1
       svelte-check: 2.2.8_svelte@3.44.1
       svelte-preprocess: 4.9.8_svelte@3.44.1+typescript@4.4.4
@@ -112,8 +112,8 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.193_svelte@3.44.1:
-    resolution: {integrity: sha512-JRe7ZTZONNL2t+uFUkrT6HDWajD/Dp0lDMiB4FODZAtQLx94PKit0I699/dHrQR0qpzE3gYipqtxInTWasFpBg==}
+  /@sveltejs/kit/1.0.0-next.196_svelte@3.44.1:
+    resolution: {integrity: sha512-z7sA/2/3Il5biibjPXCYXJC11TyFhgCvMaJvvbtMnu2l3EmOmJBMS+r2djGptzfFsugSVNwGQFn8+ldWQWq3jA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1146,8 +1146,8 @@ packages:
     resolution: {integrity: sha512-5chK29n6QcJc3m1lVrKQSQ+V7K1Gb8HeQY6FViQ5AxCAEGu3DaHffWNDkC9+miZgsLvbvU9rxbV1qinGHMHzqA==}
     dev: true
 
-  /prettier-plugin-svelte/2.4.0_prettier@2.4.1:
-    resolution: {integrity: sha512-JwJ9bOz4XHLQtiLnX4mTSSDUdhu12WH8sTwy/XTDCSyPlah6IcV7NWeYBZscPEcceu2YnW8Y9sJCP40Z2UH9GA==}
+  /prettier-plugin-svelte/2.5.0_prettier@2.4.1:
+    resolution: {integrity: sha512-+iHY2uGChOngrgKielJUnqo74gIL/EO5oeWm8MftFWjEi213lq9QYTOwm1pv4lI1nA61tdgf80CF2i5zMcu1kw==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
