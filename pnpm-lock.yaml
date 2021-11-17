@@ -38,15 +38,15 @@ importers:
     specifiers:
       '@sveltejs/kit': next
       svelte: 3.44.1
-      svelte-check: 2.2.9
+      svelte-check: 2.2.10
       svelte-preprocess: 4.9.8
-      svelte2tsx: 0.4.9
+      svelte2tsx: 0.4.10
     devDependencies:
       '@sveltejs/kit': 1.0.0-next.196_svelte@3.44.1
       svelte: 3.44.1
-      svelte-check: 2.2.9_svelte@3.44.1
+      svelte-check: 2.2.10_svelte@3.44.1
       svelte-preprocess: 4.9.8_svelte@3.44.1+typescript@4.4.4
-      svelte2tsx: 0.4.9_svelte@3.44.1+typescript@4.4.4
+      svelte2tsx: 0.4.10_svelte@3.44.1+typescript@4.4.4
 
   packages/vue:
     specifiers:
@@ -1390,8 +1390,8 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /svelte-check/2.2.9_svelte@3.44.1:
-    resolution: {integrity: sha512-au77iP0v2f8F0gWu5Nk3dPkASk4H6DyLQEDQrQR6a7BWJaTnGEZKFhe5EsD8f9tHLyA4awPBi+D56hVuRsbgNA==}
+  /svelte-check/2.2.10_svelte@3.44.1:
+    resolution: {integrity: sha512-UVLd/N7hUIG2v6dytofsw8MxYn2iS2hpNSglsGz9Z9b8ZfbJ5jayl4Mm1SXhNwiFs5aklG90zSBJtd7NTK8dTg==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
@@ -1483,8 +1483,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.4.9_svelte@3.44.1+typescript@4.4.4:
-    resolution: {integrity: sha512-FXly9uQTzdLFliTF86mfkT8MgR1DGJ3yvRC/jv2t2RoRLKNgLaXBv8DP2o2RcJL+NQ2X4kRD3IQsf9/99KZ5mg==}
+  /svelte2tsx/0.4.10_svelte@3.44.1+typescript@4.4.4:
+    resolution: {integrity: sha512-vjFzAHKWzyYGz5Xq7Qm1IezOVYf8/jqDNdw+twEj9bfu3RPht9DCLQoMZzIq36IrQZWnb7p2wpDUnzMBASO7vA==}
     peerDependencies:
       svelte: ^3.24
       typescript: ^4.1.2
