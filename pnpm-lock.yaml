@@ -37,16 +37,16 @@ importers:
   packages/svelte:
     specifiers:
       '@sveltejs/kit': next
-      svelte: 3.44.1
+      svelte: 3.44.2
       svelte-check: 2.2.10
       svelte-preprocess: 4.9.8
       svelte2tsx: 0.4.10
     devDependencies:
-      '@sveltejs/kit': 1.0.0-next.196_svelte@3.44.1
-      svelte: 3.44.1
-      svelte-check: 2.2.10_svelte@3.44.1
-      svelte-preprocess: 4.9.8_svelte@3.44.1+typescript@4.4.4
-      svelte2tsx: 0.4.10_svelte@3.44.1+typescript@4.4.4
+      '@sveltejs/kit': 1.0.0-next.196_svelte@3.44.2
+      svelte: 3.44.2
+      svelte-check: 2.2.10_svelte@3.44.2
+      svelte-preprocess: 4.9.8_svelte@3.44.2+typescript@4.4.4
+      svelte2tsx: 0.4.10_svelte@3.44.2+typescript@4.4.4
 
   packages/vue:
     specifiers:
@@ -112,17 +112,17 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.196_svelte@3.44.1:
+  /@sveltejs/kit/1.0.0-next.196_svelte@3.44.2:
     resolution: {integrity: sha512-z7sA/2/3Il5biibjPXCYXJC11TyFhgCvMaJvvbtMnu2l3EmOmJBMS+r2djGptzfFsugSVNwGQFn8+ldWQWq3jA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
       svelte: ^3.44.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 1.0.0-next.30_svelte@3.44.1+vite@2.6.13
+      '@sveltejs/vite-plugin-svelte': 1.0.0-next.30_svelte@3.44.2+vite@2.6.13
       cheap-watch: 1.0.4
       sade: 1.7.4
-      svelte: 3.44.1
+      svelte: 3.44.2
       vite: 2.6.13
     transitivePeerDependencies:
       - diff-match-patch
@@ -132,7 +132,7 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.30_svelte@3.44.1+vite@2.6.13:
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.30_svelte@3.44.2+vite@2.6.13:
     resolution: {integrity: sha512-YQqdMxjL1VgSFk4/+IY3yLwuRRapPafPiZTiaGEq1psbJYSNYUWx9F1zMm32GMsnogg3zn99mGJOqe3ld3HZSg==}
     engines: {node: ^14.13.1 || >= 16}
     peerDependencies:
@@ -148,8 +148,8 @@ packages:
       kleur: 4.1.4
       magic-string: 0.25.7
       require-relative: 0.8.7
-      svelte: 3.44.1
-      svelte-hmr: 0.14.7_svelte@3.44.1
+      svelte: 3.44.2
+      svelte-hmr: 0.14.7_svelte@3.44.2
       vite: 2.6.13
     transitivePeerDependencies:
       - supports-color
@@ -1390,7 +1390,7 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /svelte-check/2.2.10_svelte@3.44.1:
+  /svelte-check/2.2.10_svelte@3.44.2:
     resolution: {integrity: sha512-UVLd/N7hUIG2v6dytofsw8MxYn2iS2hpNSglsGz9Z9b8ZfbJ5jayl4Mm1SXhNwiFs5aklG90zSBJtd7NTK8dTg==}
     hasBin: true
     peerDependencies:
@@ -1403,8 +1403,8 @@ packages:
       minimist: 1.2.5
       sade: 1.7.4
       source-map: 0.7.3
-      svelte: 3.44.1
-      svelte-preprocess: 4.9.8_svelte@3.44.1+typescript@4.4.4
+      svelte: 3.44.2
+      svelte-preprocess: 4.9.8_svelte@3.44.2+typescript@4.4.4
       typescript: 4.4.4
     transitivePeerDependencies:
       - '@babel/core'
@@ -1419,15 +1419,15 @@ packages:
       - sugarss
     dev: true
 
-  /svelte-hmr/0.14.7_svelte@3.44.1:
+  /svelte-hmr/0.14.7_svelte@3.44.2:
     resolution: {integrity: sha512-pDrzgcWSoMaK6AJkBWkmgIsecW0GChxYZSZieIYfCP0v2oPyx2CYU/zm7TBIcjLVUPP714WxmViE9Thht4etog==}
     peerDependencies:
       svelte: '>=3.19.0'
     dependencies:
-      svelte: 3.44.1
+      svelte: 3.44.2
     dev: true
 
-  /svelte-preprocess/4.9.8_svelte@3.44.1+typescript@4.4.4:
+  /svelte-preprocess/4.9.8_svelte@3.44.2+typescript@4.4.4:
     resolution: {integrity: sha512-EQS/oRZzMtYdAprppZxY3HcysKh11w54MgA63ybtL+TAZ4hVqYOnhw41JVJjWN9dhPnNjjLzvbZ2tMhTsla1Og==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -1474,16 +1474,16 @@ packages:
       magic-string: 0.25.7
       sorcery: 0.10.0
       strip-indent: 3.0.0
-      svelte: 3.44.1
+      svelte: 3.44.2
       typescript: 4.4.4
     dev: true
 
-  /svelte/3.44.1:
-    resolution: {integrity: sha512-4DrCEJoBvdR689efHNSxIQn2pnFwB7E7j2yLEJtHE/P8hxwZWIphCtJ8are7bjl/iVMlcEf5uh5pJ68IwR09vQ==}
+  /svelte/3.44.2:
+    resolution: {integrity: sha512-jrZhZtmH3ZMweXg1Q15onb8QlWD+a5T5Oca4C1jYvSURp2oD35h4A5TV6t6MEa93K4LlX6BkafZPdQoFjw/ylA==}
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.4.10_svelte@3.44.1+typescript@4.4.4:
+  /svelte2tsx/0.4.10_svelte@3.44.2+typescript@4.4.4:
     resolution: {integrity: sha512-vjFzAHKWzyYGz5Xq7Qm1IezOVYf8/jqDNdw+twEj9bfu3RPht9DCLQoMZzIq36IrQZWnb7p2wpDUnzMBASO7vA==}
     peerDependencies:
       svelte: ^3.24
@@ -1491,7 +1491,7 @@ packages:
     dependencies:
       dedent-js: 1.0.1
       pascal-case: 3.1.2
-      svelte: 3.44.1
+      svelte: 3.44.2
       typescript: 4.4.4
     dev: true
 
