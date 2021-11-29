@@ -1,35 +1,33 @@
 {
   "name": "@si-components/svelte",
-  "private": true,
   "version": "1.0.1",
+  "type": "module",
   "description": "svelte component for simple-icons",
-  "publishConfig": {
-    "directory": "package"
-  },
-  "scripts": {
-    "clean": "rimraf package",
-    "build": "svelte-kit package",
-    "check": "svelte-check --tsconfig ./tsconfig.json",
-    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-    "type-check": "pnpm check",
-    "release": "pnpm build && node remove-private.js && pnpm publish --access public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sachinraja/si-components.git"
   },
+  "homepage": "https://github.com/sachinraja/si-components/tree/main/packages/svelte#readme",
+  "bugs": {
+    "url": "https://github.com/sachinraja/si-components/issues"
+  },
+  "author": "Sachin Raja <sachinraja2349@gmail.com>",
+  "license": "MIT",
+  "private": true,
   "keywords": [
     "simple-icons",
     "icon",
     "svg",
     "svelte"
   ],
-  "author": "Sachin Raja <sachinraja2349@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sachinraja/si-components/issues"
+  "scripts": {
+    "build": "svelte-kit package",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+    "clean": "rimraf package",
+    "release": "pnpm build && node remove-private.js && pnpm publish --access public",
+    "type-check": "pnpm check"
   },
-  "homepage": "https://github.com/sachinraja/si-components/tree/main/packages/svelte#readme",
   "peerDependencies": {
     "simple-icons": "*",
     "svelte": "*"
@@ -41,5 +39,7 @@
     "svelte-preprocess": "4.9.8",
     "svelte2tsx": "0.4.10"
   },
-  "type": "module"
+  "publishConfig": {
+    "directory": "package"
+  }
 }
