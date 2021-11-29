@@ -15,9 +15,14 @@ npm install @si-components/vue simple-icons
 ```html
 <template>
   <!-- pass icon into component -->
-  <SIIcon :icon="vueIcon" />
+  <SIIcon :icon="siVuedotjs" />
   <!-- extra attributes are passed to svg -->
-  <SIIcon :icon="vueIcon" width="100" height="100" :color="'#' + vueIcon.hex" />
+  <SIIcon
+    :icon="siVuedotjs"
+    width="100"
+    height="100"
+    :color="'#' + siVuedotjs.hex"
+  />
 </template>
 
 <script>
