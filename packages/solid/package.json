@@ -30,7 +30,7 @@
     "solid"
   ],
   "scripts": {
-    "build": "pnpm clean && tsup index.tsx --format esm,cjs --dts",
+    "build": "pnpm clean && tsup",
     "clean": "rimraf dist",
     "prepack": "pnpm build",
     "release": "pnpm publish",
@@ -41,6 +41,7 @@
     "solid-js": "*"
   },
   "devDependencies": {
+    "esbuild-plugin-solid": "0.4.1",
     "preact": "10.5.15",
     "solid-js": "1.2.5"
   },

@@ -11,6 +11,7 @@
     "release": "pnpm -r --parallel run release"
   },
   "devDependencies": {
+    "esbuild": "0.13.15",
     "husky": "7.0.4",
     "lint-staged": "12.1.2",
     "prettier": "2.5.0",
