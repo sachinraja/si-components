@@ -1,5 +1,6 @@
 {
   "name": "si-components",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "pnpm clean && pnpm -r --parallel run build",
