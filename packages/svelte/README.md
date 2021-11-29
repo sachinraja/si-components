@@ -1,11 +1,11 @@
 # @si-components/svelte
 
-[simple-icons](https://github.com/simple-icons/simple-icons) component for Svelte
+Svelte component for [simple-icons](https://github.com/simple-icons/simple-icons)
 
 ## Installation
 
 ```shell
-npm i @si-components/svelte simple-icons
+npm install @si-components/svelte simple-icons
 ```
 
 `simple-icons` must be installed as a peer dependency.
@@ -13,19 +13,19 @@ npm i @si-components/svelte simple-icons
 ## Usage
 
 <!-- prettier-ignore -->
-```html
+```svelte
 <script>
   import SIIcon from '@si-components/svelte'
   // import icon from simple-icons
-  import svelteIcon from 'simple-icons/icons/svelte'
+  import {siSvelte} from 'simple-icons/icons'
 </script>
 
 <!-- pass icon into component -->
-<SIIcon icon={svelteIcon} />
+<SIIcon icon={siSvelte} />
 
 <!-- pass width, height, and color -->
-<SIIcon icon={svelteIcon} width={100} height={100} color="#{svelteIcon.hex}" />
+<SIIcon icon={siSvelte} width={100} height={100} color="#{siSvelte.hex}" />
 
 <!-- extra attributes are passed to svg -->
-<SIIcon icon={svelteIcon} svgProps={{ stroke: '#00ff00', 'stroke-width': 2 }} />
+<SIIcon icon={siSvelte} svgProps={{ stroke: '#00ff00', 'stroke-width': 2 }} />
 ```

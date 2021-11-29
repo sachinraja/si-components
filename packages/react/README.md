@@ -1,11 +1,11 @@
 # @si-components/react
 
-[simple-icons](https://github.com/simple-icons/simple-icons) component for React
+React component for [simple-icons](https://github.com/simple-icons/simple-icons)
 
 ## Installation
 
 ```shell
-npm i @si-components/react simple-icons
+npm install @si-components/react simple-icons
 ```
 
 `simple-icons` must be installed as a peer dependency.
@@ -15,20 +15,15 @@ npm i @si-components/react simple-icons
 ```js
 import SIIcon from '@si-components/react'
 // import icon from simple-icons
-import reactIcon from 'simple-icons/icons/react'
+import { siReact } from 'simple-icons/icons'
 
 const Component = () => (
   <>
     {/* pass icon into component */}
-    <SIIcon icon={reactIcon} />
+    <SIIcon icon={siReact} />
 
     {/* extra attributes are passed to svg */}
-    <SIIcon
-      icon={reactIcon}
-      width="100"
-      height="100"
-      color={`#${reactIcon.hex}`}
-    />
+    <SIIcon icon={siReact} width="100" height="100" color={`#${siReact.hex}`} />
   </>
 )
 ```

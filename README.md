@@ -4,9 +4,9 @@
 
 Find your library's package for documentation:
 
-- [react](https://github.com/sachinraja/si-components/blob/main/packages/react/README.md)
-- [preact](https://github.com/sachinraja/si-components/blob/main/packages/preact/README.md)
-- [vue](https://github.com/sachinraja/si-components/blob/main/packages/vue/README.md)
-- [svelte](https://github.com/sachinraja/si-components/blob/main/packages/svelte/README.md)
+- [React](https://github.com/sachinraja/si-components/blob/main/packages/react/README.md)
+- [Preact](https://github.com/sachinraja/si-components/blob/main/packages/preact/README.md)
+- [Vue](https://github.com/sachinraja/si-components/blob/main/packages/vue/README.md)
+- [Svelte](https://github.com/sachinraja/si-components/blob/main/packages/svelte/README.md)
 
 If you would like support for another library, please create an issue.

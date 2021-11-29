@@ -2,7 +2,9 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "module": "esnext",
-    "moduleResolution": "node"
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "declaration": true
   },
   "include": ["index.ts"],
   "exclude": ["node_modules", "dist"]

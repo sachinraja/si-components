@@ -1,7 +1,7 @@
 {
   "name": "@si-components/vue",
   "version": "1.0.0",
-  "description": "vue component for simple-icons",
+  "description": "Vue component for simple-icons",
   "publishConfig": {
     "access": "public"
   },
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "clean": "rimraf dist",
-    "build": "pnpm clean && tsup index.ts --format esm,cjs",
+    "build": "pnpm clean && tsup index.ts --format esm,cjs --dts",
     "type-check": "tsc",
     "prepack": "pnpm build",
     "release": "pnpm publish"
@@ -43,6 +43,6 @@
     "vue": "^3"
   },
   "devDependencies": {
-    "vue": "3.2.22"
+    "vue": "3.2.23"
   }
 }

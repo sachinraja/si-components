@@ -1,11 +1,11 @@
 # @si-components/vue
 
-[simple-icons](https://github.com/simple-icons/simple-icons) component for **Vue 3**
+**Vue 3** component for [simple-icons](https://github.com/simple-icons/simple-icons)
 
 ## Installation
 
 ```shell
-npm i @si-components/vue simple-icons
+npm install @si-components/vue simple-icons
 ```
 
 `simple-icons` must be installed as a peer dependency.
@@ -23,7 +23,7 @@ npm i @si-components/vue simple-icons
 <script>
   import SIIcon from '@si-components/vue'
   // import icon from simple-icons
-  import vueIcon from 'simple-icons/icons/vuedotjs'
+  import { siVuedotjs } from 'simple-icons/icons'
 
   export default {
     name: 'Component',
@@ -32,7 +32,7 @@ npm i @si-components/vue simple-icons
     },
     data() {
       return {
-        vueIcon,
+        siVuedotjs,
       }
     },
   }
