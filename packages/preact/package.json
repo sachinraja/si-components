@@ -1,10 +1,11 @@
 {
   "name": "@si-components/preact",
   "version": "1.0.1",
-  "description": "preact component for simple-icons",
+  "description": "Preact component for simple-icons",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sachinraja/si-components.git"
+    "url": "git+https://github.com/sachinraja/si-components.git",
+    "directory": "packages/preact"
   },
   "homepage": "https://github.com/sachinraja/si-components/tree/main/packages/preact#readme",
   "bugs": {

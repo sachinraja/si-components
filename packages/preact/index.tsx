@@ -1,21 +1,11 @@
 import { JSX } from 'preact'
 import { SimpleIcon } from 'simple-icons'
+import { DefaultProps, defaultProps } from '../core'
 
-type SIIconProps = Omit<JSX.SVGAttributes<SVGSVGElement>, 'icon'> & {
-  icon: SimpleIcon
-  title?: string
-}
+type SIIconProps = Omit<JSX.SVGAttributes<SVGSVGElement>, 'icon'> & DefaultProps
 
 const SIIcon = ({ icon, title, ...props }: SIIconProps) => (
-  <svg
-    role="img"
-    viewBox="0 0 24 24"
-    xmlns="http://www.w3.org/2000/svg"
-    fill="currentColor"
-    width="1em"
-    height="1em"
-    {...props}
-  >
+  <svg {...defaultProps} {...props}>
     {title && <title>{title}</title>}
     <path d={icon.path} />
   </svg>

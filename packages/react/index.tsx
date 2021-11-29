@@ -1,23 +1,11 @@
 import { forwardRef, SVGAttributes } from 'react'
-import { SimpleIcon } from 'simple-icons'
+import { DefaultProps, defaultProps } from '../core'
 
-type SIIconProps = SVGAttributes<SVGSVGElement> & {
-  icon: SimpleIcon
-  title?: string
-}
+type SIIconProps = SVGAttributes<SVGSVGElement> & DefaultProps
 
 const SIIcon = forwardRef<SVGSVGElement, SIIconProps>(
   ({ icon, title = icon.title, ...props }, ref) => (
-    <svg
-      role="img"
-      viewBox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg"
-      fill="currentColor"
-      width="1em"
-      height="1em"
-      ref={ref}
-      {...props}
-    >
+    <svg ref={ref} {...defaultProps} {...props}>
       {title && <title>{title}</title>}
       <path d={icon.path} />
     </svg>

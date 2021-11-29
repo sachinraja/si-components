@@ -1,5 +1,6 @@
 import { SimpleIcon } from 'simple-icons'
 import { h, defineComponent, PropType } from 'vue'
+import { defaultProps } from '../core'
 
 const SIIcon = defineComponent({
   name: 'si-icon',
@@ -8,18 +9,10 @@ const SIIcon = defineComponent({
     title: String,
   },
   render() {
-    return h(
-      'svg',
-      {
-        role: 'img',
-        viewBox: '0 0 24 24',
-        xmlns: 'http://www.w3.org/2000/svg',
-        fill: 'currentColor',
-        width: '1em',
-        height: '1em',
-      },
-      [this.title && h('title', this.title), h('path', { d: this.icon.path })],
-    )
+    return h('svg', defaultProps, [
+      this.title && h('title', this.title),
+      h('path', { d: this.icon.path }),
+    ])
   },
 })
 

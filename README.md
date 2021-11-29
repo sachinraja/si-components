@@ -8,5 +8,6 @@ Find your library's package for documentation:
 - [Preact](https://github.com/sachinraja/si-components/blob/main/packages/preact/README.md)
 - [Vue](https://github.com/sachinraja/si-components/blob/main/packages/vue/README.md)
 - [Svelte](https://github.com/sachinraja/si-components/blob/main/packages/svelte/README.md)
+- [Solid](https://github.com/sachinraja/si-components/blob/main/packages/solid/README.md)
 
 If you would like support for another library, please create an issue.

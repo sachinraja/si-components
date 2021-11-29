@@ -38,6 +38,14 @@ importers:
       '@types/react': 17.0.35
       react: 17.0.2
 
+  packages/solid:
+    specifiers:
+      preact: 10.5.15
+      solid-js: 1.2.5
+    devDependencies:
+      preact: 10.5.15
+      solid-js: 1.2.5
+
   packages/svelte:
     specifiers:
       '@sveltejs/kit': next
@@ -46,11 +54,11 @@ importers:
       svelte-preprocess: 4.9.8
       svelte2tsx: 0.4.10
     devDependencies:
-      '@sveltejs/kit': 1.0.0-next.196_svelte@3.44.2
+      '@sveltejs/kit': 1.0.0-next.201_svelte@3.44.2
       svelte: 3.44.2
       svelte-check: 2.2.10_svelte@3.44.2
-      svelte-preprocess: 4.9.8_svelte@3.44.2+typescript@4.4.4
-      svelte2tsx: 0.4.10_svelte@3.44.2+typescript@4.4.4
+      svelte-preprocess: 4.9.8_svelte@3.44.2
+      svelte2tsx: 0.4.10_svelte@3.44.2
 
   packages/vue:
     specifiers:
@@ -95,8 +103,8 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.196_svelte@3.44.2:
-    resolution: {integrity: sha512-z7sA/2/3Il5biibjPXCYXJC11TyFhgCvMaJvvbtMnu2l3EmOmJBMS+r2djGptzfFsugSVNwGQFn8+ldWQWq3jA==}
+  /@sveltejs/kit/1.0.0-next.201_svelte@3.44.2:
+    resolution: {integrity: sha512-WcYexOEPWgDWOk0oOteTU5QwWykdIcOFJig+akeHqwE/jVtPURLZFtTNx0ymUWXN4S+dUXf60KF6HEMv74FHpA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1280,14 +1288,6 @@ packages:
       glob: 7.2.0
     dev: true
 
-  /rollup/2.58.0:
-    resolution: {integrity: sha512-NOXpusKnaRpbS7ZVSzcEXqxcLDOagN6iFS8p45RkoiMqPHDLwJm758UF05KlMoCRbLBTZsPOIa887gZJ1AiXvw==}
-    engines: {node: '>=10.0.0'}
-    hasBin: true
-    optionalDependencies:
-      fsevents: 2.3.2
-    dev: true
-
   /rollup/2.60.1:
     resolution: {integrity: sha512-akwfnpjY0rXEDSn1UTVfKXJhPsEBu+imi1gqBA1ZkHGydUnkV/fWCC90P7rDaLEW8KTwBcS1G3N4893Ndz+jwg==}
     engines: {node: '>=10.0.0'}
@@ -1374,6 +1374,10 @@ packages:
     dependencies:
       ansi-styles: 6.1.0
       is-fullwidth-code-point: 4.0.0
+    dev: true
+
+  /solid-js/1.2.5:
+    resolution: {integrity: sha512-XcPEULgqd/XbBu8LwtGWs5RGowvIpq88/ZNI/xgJ9PaxRJWwbVlSNsS+ywUWncxRdKsPoVe8vdcIsH4gBJjh3Q==}
     dev: true
 
   /sorcery/0.10.0:
@@ -1516,6 +1520,56 @@ packages:
       svelte: 3.44.2
     dev: true
 
+  /svelte-preprocess/4.9.8_svelte@3.44.2:
+    resolution: {integrity: sha512-EQS/oRZzMtYdAprppZxY3HcysKh11w54MgA63ybtL+TAZ4hVqYOnhw41JVJjWN9dhPnNjjLzvbZ2tMhTsla1Og==}
+    engines: {node: '>= 9.11.2'}
+    requiresBuild: true
+    peerDependencies:
+      '@babel/core': ^7.10.2
+      coffeescript: ^2.5.1
+      less: ^3.11.3
+      node-sass: '*'
+      postcss: ^7 || ^8
+      postcss-load-config: ^2.1.0 || ^3.0.0
+      pug: ^3.0.0
+      sass: ^1.26.8
+      stylus: ^0.54.7
+      sugarss: ^2.0.0
+      svelte: ^3.23.0
+      typescript: ^3.9.5 || ^4.0.0
+    peerDependenciesMeta:
+      '@babel/core':
+        optional: true
+      coffeescript:
+        optional: true
+      less:
+        optional: true
+      node-sass:
+        optional: true
+      postcss:
+        optional: true
+      postcss-load-config:
+        optional: true
+      pug:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      typescript:
+        optional: true
+    dependencies:
+      '@types/pug': 2.0.5
+      '@types/sass': 1.16.1
+      detect-indent: 6.1.0
+      magic-string: 0.25.7
+      sorcery: 0.10.0
+      strip-indent: 3.0.0
+      svelte: 3.44.2
+    dev: true
+
   /svelte-preprocess/4.9.8_svelte@3.44.2+typescript@4.4.4:
     resolution: {integrity: sha512-EQS/oRZzMtYdAprppZxY3HcysKh11w54MgA63ybtL+TAZ4hVqYOnhw41JVJjWN9dhPnNjjLzvbZ2tMhTsla1Og==}
     engines: {node: '>= 9.11.2'}
@@ -1572,7 +1626,7 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.4.10_svelte@3.44.2+typescript@4.4.4:
+  /svelte2tsx/0.4.10_svelte@3.44.2:
     resolution: {integrity: sha512-vjFzAHKWzyYGz5Xq7Qm1IezOVYf8/jqDNdw+twEj9bfu3RPht9DCLQoMZzIq36IrQZWnb7p2wpDUnzMBASO7vA==}
     peerDependencies:
       svelte: ^3.24
@@ -1581,7 +1635,6 @@ packages:
       dedent-js: 1.0.1
       pascal-case: 3.1.2
       svelte: 3.44.2
-      typescript: 4.4.4
     dev: true
 
   /thenify-all/1.6.0:
@@ -1689,7 +1742,7 @@ packages:
       esbuild: 0.13.4
       postcss: 8.3.9
       resolve: 1.20.0
-      rollup: 2.58.0
+      rollup: 2.60.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true

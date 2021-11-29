@@ -23,7 +23,7 @@ const Component = () => (
     <SIIcon icon={siReact} />
 
     {/* extra attributes are passed to svg */}
-    <SIIcon icon={siReact} width="100" height="100" color={`#${siReact.hex}`} />
+    <SIIcon icon={siReact} width={100} height={100} color={`#${siReact.hex}`} />
   </>
 )
 ```

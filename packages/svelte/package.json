@@ -2,10 +2,11 @@
   "name": "@si-components/svelte",
   "version": "1.0.2",
   "type": "module",
-  "description": "svelte component for simple-icons",
+  "description": "Svelte component for simple-icons",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sachinraja/si-components.git"
+    "url": "git+https://github.com/sachinraja/si-components.git",
+    "directory": "packages/svelte"
   },
   "homepage": "https://github.com/sachinraja/si-components/tree/main/packages/svelte#readme",
   "bugs": {
