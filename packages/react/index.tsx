@@ -1,5 +1,5 @@
 import { forwardRef, SVGAttributes } from 'react'
-import { DefaultProps, defaultProps } from '../core'
+import { DefaultProps, defaultProps } from '../../core'
 
 type SIIconProps = SVGAttributes<SVGSVGElement> & DefaultProps
 

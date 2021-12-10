@@ -1,5 +1,5 @@
 import { JSX } from 'preact'
-import { DefaultProps, defaultProps } from '../core'
+import { DefaultProps, defaultProps } from '../../core'
 
 type SIIconProps = Omit<JSX.SVGAttributes<SVGSVGElement>, 'icon'> & DefaultProps
 

@@ -1,5 +1,5 @@
 import { Component, JSX } from 'solid-js'
-import { DefaultProps, defaultProps } from '../core'
+import { DefaultProps, defaultProps } from '../../core'
 
 type SIIconProps = JSX.SvgSVGAttributes<SVGSVGElement> & DefaultProps
 

@@ -1,6 +1,6 @@
 import { SimpleIcon } from 'simple-icons'
 import { h, defineComponent, PropType } from 'vue'
-import { defaultProps } from '../core'
+import { defaultProps } from '../../core'
 
 const SIIcon = defineComponent({
   name: 'si-icon',
