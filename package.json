@@ -4,7 +4,7 @@
   "scripts": {
     "build": "pnpm clean && pnpm -r --parallel run build",
     "clean": "pnpm -r --parallel run clean",
-    "format": "prettier -w .",
+    "format": "prettier -w . --plugin-search-dir=.",
     "lint:format": "prettier -c .",
     "lint:types": "pnpm -r --parallel run type-check",
     "prepare": "husky install",
@@ -32,6 +32,14 @@
     "plugins": [
       "./node_modules/prettier-plugin-svelte",
       "./node_modules/prettier-plugin-pkg"
+    ],
+    "overrides": [
+      {
+        "files": "*.svelte",
+        "options": {
+          "parser": "svelte"
+        }
+      }
     ]
   }
 }
