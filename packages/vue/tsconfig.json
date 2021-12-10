@@ -1,11 +1,5 @@
 {
   "extends": "../../tsconfig.base.json",
-  "compilerOptions": {
-    "module": "esnext",
-    "noEmit": false,
-    "emitDeclarationOnly": true,
-    "declaration": true
-  },
   "include": ["index.ts"],
   "exclude": ["node_modules", "dist"]
 }

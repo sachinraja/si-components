@@ -13,6 +13,7 @@ importers:
       rimraf: 3.0.2
       simple-icons: 6.0.0
       tsup: 5.10.0
+      turbo: 1.0.4
       typescript: 4.5.2
     devDependencies:
       esbuild: 0.13.15
@@ -24,6 +25,7 @@ importers:
       rimraf: 3.0.2
       simple-icons: 6.0.0
       tsup: 5.10.0_typescript@4.5.2
+      turbo: 1.0.4
       typescript: 4.5.2
 
   packages/preact:
@@ -2168,6 +2170,14 @@ packages:
       - ts-node
     dev: true
 
+  /turbo/1.0.4:
+    resolution: {integrity: sha512-lPT/DNI7FiD+BBAjugyL5A24PA9g2DmLaErUCz6bGHfIlzPg1pawlX8GbZUCeCHA/DX/gCP8VP0BxGKb71c1Jw==}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      zlib: 1.0.5
+    dev: true
+
   /type-fest/0.21.3:
     resolution: {integrity: sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==}
     engines: {node: '>=10'}
@@ -2252,4 +2262,9 @@ packages:
   /yaml/1.10.2:
     resolution: {integrity: sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==}
     engines: {node: '>= 6'}
+    dev: true
+
+  /zlib/1.0.5:
+    resolution: {integrity: sha1-bnyXL8NxxkWmr7A6sUdp3vEU/MA=}
+    engines: {node: '>=0.2.0'}
     dev: true
