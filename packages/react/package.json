@@ -37,7 +37,7 @@
     "type-check": "tsc"
   },
   "peerDependencies": {
-    "react": "^16 || ^17",
+    "react": "^16 || ^17 || ^18.0.0",
     "simple-icons": "*"
   },
   "devDependencies": {
